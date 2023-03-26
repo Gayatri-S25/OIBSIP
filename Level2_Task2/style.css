@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    opacity: 2px;
+    background-image:url("book.webp") ;
+    min-height: 100vh;
+    height: 1700px;
+    border: 10px solid black;
+    
+}
+.content{
+    max-width: 900px;
+    margin:0 auto;
+}
+.top_section{
+    /* photo ani text side la aala ya flex ni */
+    display:flex;
+    /* yani 2 div mdhe space create kela */
+    justify-content: space-between;
+    margin-top: 100px;
+    /* text image chya khali aanl */
+    align-items: flex-end;
+    
+}
+.top_section h1{
+    font-size: 50px;
+    font-weight:bold;
+    color:black;
+    text-transform: uppercase;
+    color:aliceblue;
+
+}
+.top_section h4{
+    font-size: 30px;
+    /* te year aahe na te end la takl */
+    text-align: end;
+    color: white;
+
+}
+.image_container{
+    border-radius:50%;
+    overflow:hidden;
+}
+.image_container,img{
+   
+    width: 300px;
+    height: 320px;
+}
+.about_section{
+    margin:30px 0;
+}
+.about_section h2{
+    font-size: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+ 
+}
+.about_section p{
+    font-size: 20px;
+    line-height:30px;
+    letter-spacing:1.2px;
+    color: white;
+}
+.section_3 h2 {
+    margin-bottom: 20px;
+    color: white;
+
+}
+.section_3 ul{
+    font-size: 20px;
+    line-height:30px;
+    letter-spacing:1.2px;
+    color: white;
+}
